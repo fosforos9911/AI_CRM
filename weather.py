@@ -41,7 +41,7 @@ class WeatherTool(BaseTool):
     def _get_city_code(self, city_name: str) -> str:
         """通过城市名获取城市ID"""
         if not self.api_key:
-            return "101010100"  # 默认北京
+            return "101010100" 
 
         try:
             url = f"{self.QWEATHER_API_BASE}/geo/v1/cities"
