@@ -1,7 +1,3 @@
-"""
-Streamlit 客户端 - 智能助手Web界面
-"""
-
 import streamlit as st
 import time
 import pandas as pd
@@ -502,4 +498,5 @@ else:
 
     # 运行主函数
     if __name__ == "__main__":
+
         main()
